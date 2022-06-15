@@ -1,0 +1,52 @@
+div {
+    text-align: center;
+}
+
+h1{
+   font-size: 50px;
+}
+
+a{
+    border: 1px solid rgb(58, 198, 156);
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(77, 117, 174);
+    background-color:rgb(156, 143, 143);
+    text-decoration: none;
+}a:hover{
+    border: 2px solid rgb(143, 70, 114);
+    color: white;
+    background-color: rgb(17, 148, 199);
+}
+
+#matrix1,
+#matrix2,
+#resultmatrix {
+
+    border: 1px solid rgb(124, 173, 17);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 3px;
+    display: inline-block;
+}
+
+#matrix1>input,
+#matrix2>input,
+#resultmatrix>input,#getinput1,#getinput2 {
+    border-radius: 10px;
+    border: 1px solid rgb(156, 143, 143);
+    text-align: center;
+    line-height: 1.5;
+    padding: 2px;
+    margin: 0px;
+    color: rgb(121, 105, 62);
+}#getinput1,#getinput2{
+    width: 20%;
+}
+
+body {
+    background-color: #0a6f6f;
+}
+
+
+
